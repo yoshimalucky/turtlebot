@@ -11,8 +11,12 @@
   <xacro:include filename="$(find kobuki_description)/urdf/kobuki.urdf.xacro" />
   <!-- Stacks -->
   <xacro:include filename="$(find turtlebot_description)/urdf/stacks/circles.urdf.xacro"/>
+  <xacro:include filename="$(find turtlebot_description)/urdf/stacks/hexagons.urdf.xacro"/>
   <xacro:include filename="$(find turtlebot_description)/urdf/stacks/hexagons_tilt_laser.urdf.xacro"/>
-  <!-- 3D Sensors -->
+  <!-- 3D Sensors
+       kinect,
+       asus_xtion,
+       jsk_tilt_laser -->
   <xacro:include filename="$(find turtlebot_description)/urdf/sensors/kinect.urdf.xacro"/>
   <xacro:include filename="$(find turtlebot_description)/urdf/sensors/asus_xtion_pro.urdf.xacro"/>
   <xacro:include filename="$(find jsk_tilt_laser)/config/tilt_laser.urdf.xacro" />
